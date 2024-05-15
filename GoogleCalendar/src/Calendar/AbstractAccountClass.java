@@ -7,9 +7,12 @@ public abstract class AbstractAccountClass implements Account {
         this.type = type;
     }
 
+    @Override
     public boolean canCreateHighPrio() {
         return this instanceof ManagerClass;
     }
+
+    @Override
     public boolean canCreateMidPrio(){
         return this instanceof StaffClass;
     }
