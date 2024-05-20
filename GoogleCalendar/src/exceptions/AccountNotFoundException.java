@@ -1,7 +1,7 @@
 package exceptions;
 
 public class AccountNotFoundException extends Exception {
-    private static final String MESSAGE = "Account %s does not exist.";
+    private static final String MESSAGE = "Account %s does not exist.\n";
 
     public AccountNotFoundException(){
         super();

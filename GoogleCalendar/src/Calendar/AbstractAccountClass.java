@@ -1,9 +1,13 @@
 package Calendar;
 
-public abstract class AbstractAccountClass implements Account {
-    private String type;
 
-    public AbstractAccountClass(String type){
+public abstract class AbstractAccountClass implements Account, Comparable<Account> {
+    private String type;
+    private String email;
+
+
+    protected AbstractAccountClass(String email, String type){
+        this.email = email;
         this.type = type;
     }
 
@@ -20,5 +24,24 @@ public abstract class AbstractAccountClass implements Account {
     @Override
     public String getType() {
         return type;
+    }
+
+    @Override
+    public String getEmail() {
+        return email;
+    }
+
+    @Override
+    public int compareTo(Account other) {
+        return this.email.compareTo(other.getEmail());
+    }
+
+    @Override
+    public boolean contains(Event e) {
+        return false;
+    }
+
+    @Override
+    public void addEvent(Event e) {
     }
 }

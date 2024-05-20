@@ -1,7 +1,7 @@
 package exceptions;
 
 public class UnknownAccountTypeException extends Exception{
-    private static final String MESSAGE = "Unknown account type.";
+    private static final String MESSAGE = "Unknown account type.\n";
 
     public UnknownAccountTypeException(){
         super();

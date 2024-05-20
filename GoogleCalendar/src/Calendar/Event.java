@@ -1,9 +1,11 @@
 package Calendar;
 
+import enums.Priorities;
+
 import java.time.LocalDateTime;
 
 public interface Event {
-    String getPriorityLevel();
+    Priorities getPriorityLevel();
     String getName();
     String getTopic();
     Account getCreator();
