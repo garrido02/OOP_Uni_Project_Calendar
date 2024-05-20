@@ -31,7 +31,7 @@ public class AccountClass implements Account{
         if (sentEmails.contains(email)){
             throw new DuplicaMessageException();
         }
-        receivedEmails.add(email);
+        sentEmails.add(email);
         emailsByAdress.addElem(dest, email);
         emailsBySubject.addElem(subject, email);
         subjects.add(subject);
