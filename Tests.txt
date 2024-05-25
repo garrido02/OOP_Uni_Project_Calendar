@@ -49,3 +49,53 @@ Account ola events:
 event2 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
 event3 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
 event4 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
+
+
+
+
+
+
+
+register ola staff
+register adeus manager
+register toma manager
+register francisco manager
+create adeus
+event1
+mid 2010 10 10 10
+tropic
+create toma
+event2
+mid 2010 10 10 11
+reuniao
+create toma
+event3
+mid 2010 10 10 10
+reuniao
+create francisco
+event4
+mid 2010 10 10 10
+tropic
+invite ola
+adeus event1
+invite ola
+toma event2
+invite ola
+toma event3
+response ola
+adeus event1
+accept
+response ola
+adeus event1
+accept
+response ola
+toma event3
+accept
+invite ola
+francisco event4
+response ola
+francisco event4
+accept
+events ola
+event adeus event1
+exit
