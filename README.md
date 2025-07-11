@@ -1,54 +1,5 @@
-# TESTS
+# Project for OOP course
 
-## input
+## Main language is java
 
-### register ola staff
-### register adeus manager
-### register toma manager
-### create adeus
-### event2
-### mid 10 10 10 10
-### reuniao
-### create adeus
-### event3
-### high 10 10 10 11
-### reuniao
-### create toma
-### event4
-### mid 10 10 10 10
-### reuniao
-### create toma
-### event5
-### high 10 10 10 11
-### reuniao
-### invite ola
-### adeus event2
-### invite ola
-### adeus event3
-### invite ola
-### toma event4
-### invite ola
-### toma event5
-### events ola
-
-
-
-
-
-# output
-
-### ola was registered.
-### adeus was registered.
-### toma was registered.
-### event2 is scheduled.
-### event3 is scheduled.
-### event4 is scheduled.
-### event5 is scheduled.
-### ola was invited.
-### ola accepted the invitation
-### ola was invited.
-### ola is already attending another event.
-### Account ola events:
-### event2 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
-### event3 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
-### event4 status [invited 2] [accepted 1] [rejected 0] [unanswered 1]
+# This is the final submissions of a google calendar like app.
